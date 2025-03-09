@@ -8,7 +8,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 # Clone kernel sources
 ```
-git clone https://github.com/aepranata/kernel_xiaomi_rosy.git -b 14  --recurse-submodule kernel/xiaomi/rosy
+git clone https://github.com/aepranata/kernel_xiaomi_rosy.git -b 15  --recurse-submodule kernel/xiaomi/rosy
 ```
 # Clone clang-atiga
 ```
