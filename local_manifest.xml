@@ -5,12 +5,12 @@
  <remote name="TheMuppets" fetch="https://github.com/TheMuppets" />
 
  <!--Trees-->
- <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="LineageOS" revision="lineage-22.1" />
- <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="LineageOS" revision="lineage-22.1" />
- <project path="vendor/samsung/gta4l" name="proprietary_vendor_samsung_gta4l" remote="TheMuppets" revision="lineage-22.1" />
- <project path="vendor/samsung/gta4l-common" name="proprietary_vendor_samsung_gta4l-common" remote="TheMuppets" revision="lineage-22.1" />
- <project path="kernel/samsung/sm6115" name="android_kernel_samsung_sm6115" remote="LineageOS" revision="lineage-22.1" />
+ <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="LineageOS" revision="lineage-22.2" />
+ <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="LineageOS" revision="lineage-22.2" />
+ <project path="vendor/samsung/gta4l" name="proprietary_vendor_samsung_gta4l" remote="TheMuppets" revision="lineage-22.2" />
+ <project path="vendor/samsung/gta4l-common" name="proprietary_vendor_samsung_gta4l-common" remote="TheMuppets" revision="lineage-22.2" />
+ <project path="kernel/samsung/sm6115" name="android_kernel_samsung_sm6115" remote="LineageOS" revision="lineage-22.2" />
 
  <!-- Hardware -->
- <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-22.1" />
+ <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-22.2" />
 </manifest>
