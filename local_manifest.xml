@@ -5,12 +5,12 @@
  <remote name="TheMuppets" fetch="https://github.com/TheMuppets" />
 
  <!--Trees-->
- <project path="device/xiaomi/perseus" name="android_device_xiaomi_perseus" remote="LineageOS" revision="lineage-22.1" />
- <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" remote="LineageOS" revision="lineage-22.1" />
- <project path="vendor/xiaomi/perseus" name="proprietary_vendor_xiaomi_perseus" remote="TheMuppets" revision="lineage-22.1" />
- <project path="vendor/xiaomi/sdm845-common" name="proprietary_vendor_xiaomi_sdm845-common" remote="TheMuppets" revision="lineage-22.1" />
- <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" remote="LineageOS" revision="lineage-22.1" />
+ <project path="device/xiaomi/akari" name="android_device_xiaomi_akari" remote="LineageOS" revision="lineage-22.2" />
+ <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" remote="LineageOS" revision="lineage-22.2" />
+ <project path="vendor/xiaomi/akari" name="proprietary_vendor_xiaomi_akari" remote="TheMuppets" revision="lineage-22.2" />
+ <project path="vendor/xiaomi/sdm845-common" name="proprietary_vendor_xiaomi_sdm845-common" remote="TheMuppets" revision="lineage-22.2" />
+ <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" remote="LineageOS" revision="lineage-22.2" />
 
  <!-- Hardware -->
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-22.1" />
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-22.2" />
 </manifest>
