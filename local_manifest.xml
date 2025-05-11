@@ -12,5 +12,5 @@
  <project path="kernel/nokia/sdm660" name="android_kernel_nokia_sdm660" remote="LineageOS" revision="lineage-22.2" />
 
  <!-- Hardware -->
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-22.2" />
+ <project path="hardware/nokia" name="android_hardware_nokia" remote="LineageOS" revision="lineage-22.2" />
 </manifest>
