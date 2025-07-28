@@ -5,12 +5,10 @@
  <remote name="TheMuppets" fetch="https://github.com/TheMuppets" />
 
  <!--Trees-->
- <project path="device/nokia/PL2" name="android_device_nokia_PL2" remote="LineageOS" revision="lineage-22.1" />
- <project path="device/nokia/sdm660-common" name="android_device_nokia_sdm660-common" remote="LineageOS" revision="lineage-22.1" />
- <project path="vendor/nokia/PL2" name="proprietary_vendor_nokia_PL2" remote="TheMuppets" revision="lineage-22.1" />
- <project path="vendor/nokia/sdm660-common" name="proprietary_vendor_nokia_sdm660-common" remote="TheMuppets" revision="lineage-22.1" />
- <project path="kernel/nokia/sdm660" name="android_kernel_nokia_sdm660" remote="LineageOS" revision="lineage-22.1" />
+ <project path="device/essential/mata" name="android_device_essential_mata" remote="LineageOS" revision="lineage-22.2" />
+ <project path="vendor/essential/mata" name="proprietary_vendor_essential_mata" remote="TheMuppets" revision="lineage-22.2" />
+ <project path="kernel/essential/msm8998" name="android_kernel_essential_msm8998" remote="LineageOS" revision="lineage-22.2" />
 
  <!-- Hardware -->
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-22.1" />
+ <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="LineageOS" revision="lineage-22.2" />
 </manifest>
