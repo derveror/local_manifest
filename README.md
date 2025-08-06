@@ -1,6 +1,6 @@
 # Initializing files
 ```
-git clone https://github.com/derveror/local_manifest.git -b PL2_15_qpr2 .repo/local_manifests
+git clone https://github.com/derveror/local_manifest.git -b vic_PL2_qpr2 .repo/local_manifests
 ```
 # Sync up
 ```
