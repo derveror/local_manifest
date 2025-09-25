@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!--Remote-->
- <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+ <remote name="crDroid" fetch="https://github.com/crdroidandroid" />
  <remote name="TheMuppets" fetch="https://github.com/TheMuppets" />
+ <remote name="LineageOS" fetch="https://github.com/LineageOS" />
 
- <!--Trees-->
- <project path="device/google/walleye" name="android_device_google_walleye" remote="LineageOS" revision="lineage-22.2" />
- <project path="device/google/wahoo" name="android_device_google_wahoo" remote="LineageOS" revision="lineage-22.2" />
+ <!--walleye-->
+ <project path="device/google/walleye" name="android_device_google_walleye" remote="crDroid" revision="15.0" />
  <project path="vendor/google/walleye" name="proprietary_vendor_google_walleye" remote="TheMuppets" revision="lineage-22.2" />
- <project path="kernel/google/wahoo" name="android_kernel_google_wahoo" remote="LineageOS" revision="lineage-22.2" />
+
+ <!--wahoo-->
+ <project path="device/google/wahoo" name="android_device_google_wahoo" remote="crDroid" revision="15.0" />
+ <project path="kernel/google/wahoo" name="android_kernel_google_wahoo" remote="crDroid" revision="15.0" />
+
+ <!--taimen-->
+ <project path="device/google/taimen" name="android_device_google_taimen" remote="crDroid" revision="15.0" />
+ <project path="vendor/google/taimen" name="proprietary_vendor_google_taimen" remote="TheMuppets" revision="lineage-22.2" />
  
  <!-- Hardware -->
  <project path="hardware/google/graphics_common" name="android_hardware_google_graphics_common" remote="LineageOS" revision="lineage-22.2" />
