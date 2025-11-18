@@ -5,10 +5,11 @@
  <remote name="TheMuppets" fetch="https://github.com/TheMuppets" />
 
  <!--Trees-->
- <project path="device/essential/mata" name="android_device_essential_mata" remote="LineageOS" revision="lineage-22.2" />
- <project path="vendor/essential/mata" name="proprietary_vendor_essential_mata" remote="TheMuppets" revision="lineage-22.2" />
- <project path="kernel/essential/msm8998" name="android_kernel_essential_msm8998" remote="LineageOS" revision="lineage-22.2" />
-
+ <project path="device/oneplus/dre" name="android_device_oneplus_dre" remote="LineageOS" revision="lineage-22.2" />
+ <project path="vendor/oneplus/dre" name="proprietary_vendor_oneplus_dre" remote="TheMuppets" revision="lineage-22.2" />
+ <project path="kernel/oneplus/sm4350" name="android_kernel_oneplus_sm4350" remote="LineageOS" revision="lineage-22.2" />
+ 
  <!-- Hardware -->
- <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="LineageOS" revision="lineage-22.2" />
+ <project path="hardware/oneplus" name="android_hardware_oneplus" remote="LineageOS" revision="lineage-22.2" />
+ <project path="hardware/oplus" name="android_hardware_oplus" remote="LineageOS" revision="lineage-22.2" />
 </manifest>
