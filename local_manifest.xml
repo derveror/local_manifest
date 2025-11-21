@@ -18,7 +18,7 @@
  <project path="kernel/nvidia/cypress-fmac" name="android_kernel_nvidia_cypress-fmac" remote="LineageOS" revision="lineage-22.2" />
  <project path="kernel/nvidia/cypress-fmac-upstream" name="android_kernel_nvidia_cypress-fmac-upstream" remote="LineageOS" revision="lineage-22.2" />
  <project path="kernel/nvidia/kernel-4.9" name="android_kernel_nvidia_kernel" remote="LineageOS" revision="lineage-22.2_4.9" />  
- <project path="kernel/nvidia/nvidia" name="android_kernel_nvidia_nvidia" remote="LineageOS" revision="lineage-22.2_4.9" />
+ <project path="kernel/nvidia/nvidia" name="android_kernel_nvidia_nvidia" remote="LineageOS" revision="lineage-22.2" />
  <project path="kernel/nvidia/nvgpu" name="android_kernel_nvidia_nvgpu" remote="LineageOS" revision="lineage-22.2" />
  <project path="kernel/nvidia/wireguard" name="android_kernel_nvidia_wireguard" remote="LineageOS" revision="lineage-22.2" />
 
