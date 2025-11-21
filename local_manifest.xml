@@ -4,11 +4,36 @@
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
  <remote name="TheMuppets" fetch="https://github.com/TheMuppets" />
 
- <!--Trees-->
- <project path="device/essential/mata" name="android_device_essential_mata" remote="LineageOS" revision="lineage-22.2" />
- <project path="vendor/essential/mata" name="proprietary_vendor_essential_mata" remote="TheMuppets" revision="lineage-22.2" />
- <project path="kernel/essential/msm8998" name="android_kernel_essential_msm8998" remote="LineageOS" revision="lineage-22.2" />
+ <!--device-->
+ <project path="device/google/sphynx" name="android_device_google_sphynx" remote="LineageOS" revision="lineage-22.2" />
+ <project path="device/nvidia/t210-common" name="android_device_nvidia_t210-common" remote="LineageOS" revision="lineage-22.2" />
+ <project path="device/nvidia/tegra-common" name="android_device_nvidia_tegra-common" remote="LineageOS" revision="lineage-22.2" />
+ <project path="device/nvidia/sepolicy" name="android_device_nvidia_sepolicy" remote="LineageOS" revision="lineage-22.2" />
+
+ <!-- vendor -->
+ <project path="proprietary/vendor/nvidia_t210" name="proprietary_vendor_nvidia_t210" remote="TheMuppets" revision="lineage-22.2" />
+ <project path="vendor/nvidia_common" name="proprietary_vendor_nvidia_common" remote="TheMuppets" revision="lineage-22.2" />
+
+ <!-- kernel -->
+ <project path="kernel/nvidia/cypress-fmac" name="android_kernel_nvidia_cypress-fmac" remote="LineageOS" revision="lineage-22.2" />
+ <project path="kernel/nvidia/cypress-fmac-upstream" name="android_kernel_nvidia_cypress-fmac-upstream" remote="LineageOS" revision="lineage-22.2" />
+ <project path="kernel/nvidia/kernel-4.9" name="android_kernel_nvidia_kernel" remote="LineageOS" revision="lineage-22.2_4.9" />  
+ <project path="kernel/nvidia/nvidia" name="android_kernel_nvidia_nvidia" remote="LineageOS" revision="lineage-22.2_4.9" />
+ <project path="kernel/nvidia/nvgpu" name="android_kernel_nvidia_nvgpu" remote="LineageOS" revision="lineage-22.2" />
+ <project path="kernel/nvidia/wireguard" name="android_kernel_nvidia_wireguard" remote="LineageOS" revision="lineage-22.2" />
 
  <!-- Hardware -->
- <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="LineageOS" revision="lineage-22.2" />
+ <project path="hardware/nvidia/interfaces" name="android_hardware_nvidia_interfaces" remote="LineageOS" revision="lineage-22.2" />
+ <project path="hardware/nvidia/light" name="android_hardware_nvidia_light" remote="LineageOS" revision="lineage-22.2" />
+ <project path="hardware/nvidia/memtrack" name="android_hardware_nvidia_memtrack" remote="LineageOS" revision="lineage-22.2" />
+ <project path="hardware/nvidia/platform/t210/smaug" name="android_hardware_nvidia_platform_t210_smaug" remote="LineageOS" revision="lineage-22.2" />
+ <project path="hardware/nvidia/power" name="android_hardware_nvidia_power" remote="LineageOS" revision="lineage-22.2" />
+ <project path="hardware/nvidia/thermal" name="android_hardware_nvidia_thermal" remote="LineageOS" revision="lineage-22.2" />
+ <project path="hardware/dolby/interfaces" name="android_hardware_dolby_interfaces" remote="LineageOS" revision="lineage-22.2" />
+ <project path="hardware/nvidia/thermal" name="android_hardware_nvidia_thermal" remote="LineageOS" revision="lineage-22.2" />
+
+ <!-- extra -->
+ <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-9.3" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-9.3" remote="LineageOS" revision="lineage-22.2" />
+ <project path="external/tinyhal" name="android_external_tinyhal" remote="LineageOS" revision="lineage-22.2" />
+
 </manifest>
