@@ -12,7 +12,7 @@
 
  <!-- vendor -->
  <project path="proprietary/vendor/nvidia_t210" name="proprietary_vendor_nvidia_t210" remote="TheMuppets" revision="lineage-22.2" />
- <project path="vendor/nvidia_common" name="proprietary_vendor_nvidia_common" remote="TheMuppets" revision="lineage-22.2" />
+ <project path="vendor/nvidia/common" name="proprietary_vendor_nvidia_common" remote="TheMuppets" revision="lineage-22.2" />
 
  <!-- kernel -->
  <project path="kernel/nvidia/cypress-fmac" name="android_kernel_nvidia_cypress-fmac" remote="LineageOS" revision="lineage-22.2" />
