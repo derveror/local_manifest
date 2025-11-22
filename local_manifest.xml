@@ -11,7 +11,7 @@
  <project path="device/nvidia/sepolicy" name="android_device_nvidia_sepolicy" remote="LineageOS" revision="lineage-22.2" />
 
  <!-- vendor -->
- <project path="vendor/nvidia_t210" name="proprietary_vendor_nvidia_t210" remote="TheMuppets" revision="lineage-22.2" />
+ <project path="vendor/nvidia/t210" name="proprietary_vendor_nvidia_t210" remote="TheMuppets" revision="lineage-22.2" />
  <project path="vendor/nvidia/common" name="proprietary_vendor_nvidia_common" remote="TheMuppets" revision="lineage-22.2" />
 
  <!-- kernel -->
