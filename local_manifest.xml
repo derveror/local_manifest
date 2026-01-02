@@ -18,5 +18,5 @@
  <project path="vendor/sony" name="proprietary_vendor_sony" remote="Berni" revision="lineage-21.0" />
  
  <!-- Kernel -->
- <project path="kernel/sony/msm8994" name="android_kernel_sony_msm8994" remote="Berni" revision="lineage-21.0" />
+ <project path="kernel/sony/msm8994" name="android_kernel_sony_msm8994" remote="MSM8994" revision="lineage-21.0" />
 </manifest>
