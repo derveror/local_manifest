@@ -13,5 +13,5 @@
 
  <!-- Hardware -->
  <project path="hardware/sony" name="android_hardware_sony" remote="LineageOS" revision="lineage-22.2" />
- <project path="hardware/sony/SonyOpenTelephony" name="android_hardware_sony_SonyOpenTelephony" remote="LineageOS" revision="lineage-22.2" />
+ <project path="hardware/sony" name="android_hardware_sony_SonyOpenTelephony" remote="LineageOS" revision="lineage-22.2" />
 </manifest>
